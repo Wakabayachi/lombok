@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.List;
 
-@RestControlle
+@RestController
 @RequestMapping(method = RequestMethod.GET)
 public class TaskController {
     public List<TaskDto> getTasks() {
